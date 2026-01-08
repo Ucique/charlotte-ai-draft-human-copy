@@ -127,7 +127,7 @@
       'contact.side.b1': 'Lieferung: 48–72h',
       'contact.side.b2': 'Preis: ab \u20AC249 / ab \u20AC349',
       'contact.side.b3': 'Fokus: klare Struktur + klare CTA',
-      'contact.side.small': 'E-Mail-Ziel: <span class="mono">hello@example.com</span> (Platzhalter)',
+      'contact.side.small': 'E-Mail-Ziel: <span class="mono">slottesin@gmail.com</span> (Platzhalter)',
       'contact.error': 'Bitte fülle alle Pflichtfelder aus.',
       'contact.email.subject': 'Anfrage: Landingpage Copy',
 
@@ -251,7 +251,7 @@
       'contact.side.b1': 'Delivery: 48–72h',
       'contact.side.b2': 'Price: from €249 / from €349',
       'contact.side.b3': 'Focus: clear structure + clear CTA',
-      'contact.side.small': 'Email target: <span class="mono">hello@example.com</span> (placeholder)',
+      'contact.side.small': 'Email target: <span class="mono">slottesin@gmail.com</span> (placeholder)',
       'contact.error': 'Please fill all required fields.',
       'contact.email.subject': 'Request: Landing page copy',
 
@@ -349,7 +349,7 @@
         lines.push(message);
         // join with newlines; encodeURIComponent will escape them appropriately
         const body = encodeURIComponent(lines.join('\n'));
-        const mailto = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+const mailto = `mailto:slottesin@gmail.com?subject=${subject}&body=${body}`;
         // Open mail client
         window.location.href = mailto;
       });
